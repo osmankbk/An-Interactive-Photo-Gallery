@@ -6,7 +6,7 @@
 img {
     width: 248.75px;
     height: 200px;
-    float: left;
+    display: block;
 }
 
 #search {

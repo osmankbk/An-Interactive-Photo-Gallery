@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+img {
+    width: 248.75px;
+    height: 200px;
+    float: left;
+}
+
+#search {
+    display: block;
+    width: 50%;
+    line-height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+  
+    
+}
+#search:focus {
+    border: 2px solid lightblue;
+    
+}
+
+
+input {
+    grid-area: search;
+}
+
+input {
+    grid-template-areas: 
+    "search search search";
+}
+
+.gallery {
+    margin: 0px 200px 50px 200px;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 150px repeat(3, minmax(200px, 1fr));
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    grid-template-areas: 
+        "search search search search";
+}

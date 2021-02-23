@@ -8,7 +8,7 @@ const searchInput = document.querySelector('#search');
 //A function that takes a user's input as argument, interate through the anchor elements, & display the child(img)
 // of any, whose captions contains the letters of the user's input.
 const realTimeSearch = (input) => {
-	//Save the anchors to the anchors constant.
+	//Save the <a> elements to the anchors constant.
 	const anchors = document.querySelectorAll('a');
 	anchors.forEach(anchor => {
 		//Save the caption attribute of each anchor to the caption variable.

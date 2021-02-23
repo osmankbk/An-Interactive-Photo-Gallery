@@ -1,7 +1,7 @@
 //Save the searh input to searhInput constant
 const searchInput = document.querySelector('#search');
 //A function that takes a user's input as argument, interate through the anchor elements, & display the child(img)
-// of any, whose captions contains a letter of the user's input.
+// of any, whose captions contains the letters of the user's input.
 const realTimeSearch = (input) => {
 	//Save the anchors to the anchors constant.
 	const anchors = document.querySelectorAll('a');

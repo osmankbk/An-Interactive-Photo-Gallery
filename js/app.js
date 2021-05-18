@@ -16,12 +16,7 @@ const realTimeSearch = (input) => {
 		//Save the anchor's child(image) to the image variable.
 		let image = anchor.firstElementChild;
 		//This condition checks the anchor's caption for any of the user's inputs letter, & display its child if found.
-		if (caption.includes(input)) {
-			image.style.display = 'block';
-		} else {
-			//Otherwise, hides it.
-			image.style.display = 'none';
-		}
+		caption.includes(input) ? image.style.display = 'block' : image.style.display = 'none';
 	});
 }
 

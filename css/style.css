@@ -26,7 +26,7 @@
 .gallery {
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     grid-gap: 15px;
     justify-content: center;
     margin: 50px auto;
